@@ -1,0 +1,23 @@
+p{
+    display: inline;
+}
+
+p:nth-child(odd){
+    color: blue;
+    background-color: chocolate
+}
+
+p:nth-child(even){
+    color: orange;
+    background-color: aqua;
+}
+
+p:nth-child(1n+3){
+    display: block;
+
+}
+
+
+p{
+    width: 600px;
+}
