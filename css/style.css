@@ -37,6 +37,15 @@ a{
 }
 
 
+#background{
+    height: 50vh;
+    background-color: aqua;
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+
 /*
 img{
     float: right;
