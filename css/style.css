@@ -24,6 +24,7 @@ p{
 }
 */
 
+/*
 a{
     display: inline-block;
     width: 200px;
@@ -35,7 +36,9 @@ a{
     text-align: center;
     line-height: 200px;
 }
+*/
 
+/*
 
 #background{
     height: 50vh;
@@ -44,6 +47,7 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+*/
 
 
 /*
@@ -51,10 +55,12 @@ img{
     float: right;
 }
 */
+/*
 
 p:nth-child(4){
     clear: both
 }
+*/
 
 
 #kot{
@@ -81,3 +87,18 @@ p:nth-child(4){
     background-color: #fff; 
 
 }
+    
+#overflow p {
+ 
+        width:  25%;
+        float: left;
+    }
+    
+    #overflow p:nth-child(even){
+        background-color: aqua;
+    }
+    
+    
+        #overflow p:nth-child(odd){
+        background-color: dimgrey;
+    }
